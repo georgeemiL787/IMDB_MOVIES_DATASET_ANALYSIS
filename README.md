@@ -61,7 +61,8 @@ after that I derived another column and named it main genre as every movie has i
 the function used was ( =LEFT(D2, FIND("|", D2 & "|") - 1) ) where left : make supstring from thee main string in D column and find -1 = get the index i want to stop at without ("|") 
 
   ![image](https://github.com/user-attachments/assets/a361c5dd-fe69-4a52-ad29-df4ae97cbb4b)
-
+   ![image](https://github.com/user-attachments/assets/cc1f0639-a6e7-4ff3-908e-058b592c4dbd)
+ 
 and the last 2 columns was related first is profit and second is earining persentage 
 profit was claculated by subtracting budget from gross <br />
 And earining persentage was calculated by (profit/budget)*100 if the output is negative in both columns this mean that the movie lost money 
