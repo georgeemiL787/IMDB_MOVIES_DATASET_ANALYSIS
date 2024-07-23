@@ -88,3 +88,6 @@ And found that statically <br />
 ![image](https://github.com/user-attachments/assets/f65da188-5077-4b37-af09-8102ee0a5229)
 
 And found out that from the top 20 rated movies there are 9 duo worked together
+
+![image](https://github.com/user-attachments/assets/5e14edd9-3aaf-4f76-9c83-c7f90139d468)
+
