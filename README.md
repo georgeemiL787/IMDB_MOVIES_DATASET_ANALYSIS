@@ -47,11 +47,16 @@ I used only excel in my project
 4. Data Visualization: start represent some of these correlations in visual way so it be easier to understand
 5. Conclusion and Recommendations
 ## Data cleaning
-I started off removing records which have blanks (missing value column) so i found blanks in 2 columns (plot_keywords,langue).
-Didn't find duplicates records so I moved on to numerical outliers and found a global outliers in budget column due to the currency differance so i kept it.
-In string cleaning column  movie title has a wrong character at the end Â  (using find & select) , (©) removed this letter from the dataset .
+I started off removing records which have blanks (missing value column) so i found blanks in 2 columns (plot_keywords,langue).<br />
+Didn't find duplicates records so I moved on to numerical outliers and found a global outliers in budget column due to the currency differance so i kept it.<br />
+In string cleaning column  movie title has a wrong character at the end Â  (using find & select) , (©) removed this letter from the dataset .<br />
 ## Derived column
 It's a column I need to make or calculate to use it again for analysis in further steps.
 starting i made a coulmn contains the name of the director and actor_1_name and called it  director/actor using (=col1,"|",col2) and mark the duplicates using condition formatting 
+
+![image](https://github.com/user-attachments/assets/b05b38bb-c5b0-4634-8764-57a75e590af1)
+
+after that I derived another column and named it main genre as every movie has it's main genre and i assumed it's the first genre in genres column.
+the function used was ( =LEFT(D2, FIND("|", D2 & "|") - 1) ) where left : make supstring from thee main string in D column and find -1 = get the index i want to stop at without ("|") 
 
 
