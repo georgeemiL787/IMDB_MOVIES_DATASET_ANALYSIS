@@ -78,6 +78,13 @@ by using this formula (Sum of imdb_score/(Count of movie_title*10)) and change t
 
 ![image](https://github.com/user-attachments/assets/53f746f7-d59c-4a72-9cf0-741e0c662fe8)
 
-after that I extracted the most working together duos to make a barchar for the best duo and found that statically <br />
+After that I extracted the most working together duos to make a barchar for the best duo
+
+![image](https://github.com/user-attachments/assets/61138e02-ffd1-4b55-a674-66750a01947c)
+
+And found that statically <br />
 [Martin Scorsese|Robert De Niro](#emphasis) were the best duo <a name="emphasis"/>
 
+![image](https://github.com/user-attachments/assets/f65da188-5077-4b37-af09-8102ee0a5229)
+
+And found out that from the top 20 rated movies there are 9 duo worked together
