@@ -1,5 +1,5 @@
-# IMDB movies analsis
-### prject overview
+# IMDB movies analysis
+### project overview
 this data project aims to provide insights into the movies industry over the past years. regarding movie ratings, genres, release years, and other relevant attributes.
 ### Table of Contents  
 [Project Objectives](#headers)  
@@ -8,6 +8,7 @@ this data project aims to provide insights into the movies industry over the pas
 [Project Steps](#emphasis)   
 [Data cleaning](#emphasis)   
 [Derived column](#emphasis)  
+[Data visualization](#emphasis)  
 [Bussiness analysis](#emphasis)   
 [resorces](#emphasis)
 <a name="headers"/>
@@ -44,7 +45,7 @@ I used only excel in my project
 1. read the data: after obtain the data I needed to undrstand the data and get it ready for the next step 
 2. cleaning: see if the data contains blanks , duplicates , numerical outliers , string cleaning  
 3. Exploratory Data Analysis (EDA): Frequency counts for categorical.  columns Distribution of ratings, release years, and durations. Correlation analysis to find relationships between variables.
-4. Data Visualization: start represent some of these correlations in visual way so it be easier to understand
+4. Data Visualization: start represent some of these correlations in visual way so it be easier to understand and to summarize data and explore multidimensional data
 5. Conclusion and Recommendations
 ## Data cleaning
 I started off removing records which have blanks (missing value column) so i found blanks in 2 columns (plot_keywords,langue).<br />
@@ -64,6 +65,11 @@ the function used was ( =LEFT(D2, FIND("|", D2 & "|") - 1) ) where left : make s
 and the last 2 columns was related first is profit and second is earining persentage 
 profit was claculated by subtracting budget from gross <br />
 And earining persentage was calculated by (profit/budget)*100 if the output is negative in both columns this mean that the movie lost money 
+
+![image](https://github.com/user-attachments/assets/0da5fc61-46c4-4b33-b253-0db7535de2bc)
+
+## Data visualization
+
 
 
 
