@@ -70,8 +70,6 @@ And earining persentage was calculated by (profit/budget)*100 if the output is n
 ![image](https://github.com/user-attachments/assets/0da5fc61-46c4-4b33-b253-0db7535de2bc)
 
 ## Data visualization
-
-
-
-
+Using A pivot table as it's a data visualization tool so you need to add the columns having a relation to make analysis <br />
+First pivot table called 
 
