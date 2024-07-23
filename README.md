@@ -9,6 +9,7 @@ this data project aims to provide insights into the movies industry over the pas
 [Data cleaning](#emphasis)   
 [Derived column](#emphasis)  
 [Bussiness analysis](#emphasis)   
+[resorces](#emphasis)
 <a name="headers"/>
 <a name="emphasis"/>
 <a name="emphasis"/>
@@ -46,3 +47,11 @@ I used only excel in my project
 4. Data Visualization: start represent some of these correlations in visual way so it be easier to understand
 5. Conclusion and Recommendations
 ## Data cleaning
+I started off removing records which have blanks (missing value column) so i found blanks in 2 columns (plot_keywords,langue).
+Didn't find duplicates records so I moved on to numerical outliers and found a global outliers in budget column due to the currency differance so i kept it.
+In string cleaning column  movie title has a wrong character at the end Â  (using find & select) , (©) removed this letter from the dataset .
+## Derived column
+It's a column I need to make or calculate to use it again for analysis in further steps.
+starting i made a coulmn contains the name of the director and actor_1_name and called it  director/actor using (=col1,"|",col2) and mark the duplicates using condition formatting 
+
+
