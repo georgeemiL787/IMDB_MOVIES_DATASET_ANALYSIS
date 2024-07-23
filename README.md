@@ -76,3 +76,8 @@ Starting with adding (director / actor) column , Count of movie_title to get the
 to calculate average rating for every duo in the list <br />
 by using this formula (Sum of imdb_score/(Count of movie_title*10)) and change the result to precentage formula 
 
+![image](https://github.com/user-attachments/assets/53f746f7-d59c-4a72-9cf0-741e0c662fe8)
+
+after that I extracted the most working together duos to make a barchar for the best duo and found that statically <br />
+[Martin Scorsese|Robert De Niro](#emphasis) were the best duo <a name="emphasis"/>
+
