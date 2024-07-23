@@ -71,5 +71,8 @@ And earining persentage was calculated by (profit/budget)*100 if the output is n
 
 ## Data visualization
 Using A pivot table as it's a data visualization tool so you need to add the columns having a relation to make analysis <br />
-First pivot table called 
+First pivot table called best duo in this imdb movies list <br />
+Starting with adding (director / actor) column , Count of movie_title to get the number of movies the duo did together and sum for imdb score 
+to calculate average rating for every duo in the list <br />
+by using this formula (Sum of imdb_score/(Count of movie_title*10)) and change the result to precentage formula 
 
