@@ -93,7 +93,7 @@ And found out that from the top 20 rated movies there are 9 duo worked together
 ![image](https://github.com/user-attachments/assets/5e14edd9-3aaf-4f76-9c83-c7f90139d468)
 
 
-### second pivot table
+### Second pivot table
 called best directors to get the highest average rating directors in this imdb list
 starting with adding (director name) column and (sum of imdb scores) to get every director total score and last column (count movie title) so I get the number of movies each director have in the list <br />
 from this we can calculate average rating of every director by divid sum of imdb scores with count movie title multiply 10 (sum of imdb scores/(count movie title*10)) and change the result to precentage formula  <br />
@@ -105,4 +105,21 @@ And found that statically <br />
 [Christopher Nolan](#emphasis) have the highest average rating <a name="emphasis"/>
 
 ![image](https://github.com/user-attachments/assets/f04b0c31-3f0f-47d5-9704-30e281530cd1)
+
+### Third pivot table
+Called best genre to get highest average rating genre to make a movie <br />
+Adding the derived coulmn (main genre) with 2 value fields columns (Sum of imdb_score,Count of imdb_score2)
+from this pivot table we calculated average rating each genre have (Sum of imdb_score/(Count of imdb_score2*10)) and there distribution on the movie list <br />
+
+![image](https://github.com/user-attachments/assets/c665bf69-8fa1-43c5-b7af-e26d70e7d381)
+
+From this 2d pie chart we get to know that the most used genres are (action,comedy,drama) 
+
+![image](https://github.com/user-attachments/assets/4b02934b-5107-4a4b-b5cb-33b949e96c1c)
+
+and From this bar chart we get to know that the highest average rating are (biography , crime , drama)  <br />
+therefore after analyze the 2 graphs get to conclusion that [Drama](#emphasis) has the highest average rating genre <a name="emphasis"/>
+
+### Forth pivot table 
+
 
