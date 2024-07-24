@@ -148,3 +148,31 @@ named movies over the years contains 2 columns the years and count title movies 
 from this visualization we get to know that the starting of the past century movie industry wasn't that big and it start to grow making a trend it's peak was at the first decad of this century <br /> 
 at the end of the graph we see the number of movies start to decrease which we will discuss at the bussiness analysis.
 ## Bussiness analysis
+### Executive Summary
+The IMDB movies analysis project aims to uncover patterns and trends in the movie industry using historical data from IMDB. The analysis focuses on various attributes such as movie ratings, genres, release years, and financial performance. This comprehensive analysis will help stakeholders understand the dynamics of the movie industry and make informed decisions.
+### key findings 
+#### 1. Best Director-Actor Duo:
+Martin Scorsese and Robert De Niro are the highest average rating duo, indicating a successful and well-received collaboration. <br />
+Out of the top 20 rated movies, 9 are the result of director-actor duos working together. <br />
+#### 2. Top Directors: 
+Christopher Nolan has the highest average rating among directors, signifying his consistent ability to produce high-quality movies.<br />
+#### 3. Popular and High-Rating Genres:
+The most used genres in movies are Action, Comedy, and Drama.<br />
+However, the highest average rating genres are Biography, Crime, and Drama.<br />
+Drama emerges as the genre with both high usage and high ratings, making it a safe and potentially profitable choice for new productions.<br />
+#### 4. Top Actors:
+Tom Hanks has the highest average rating among actors, reflecting his popularity and consistent performance.<br />
+#### 5. Country Analysis:
+The analysis reveals that while the average movie rating does not significantly depend on the country, the earning percentage does.<br />
+USA stands out with the highest earning percentage, making it a lucrative location for movie production.<br />
+#### 6. Trends Over the Years:
+The movie industry saw gradual growth throughout the 20th century, peaking in the first decade of the 21st century.
+There has been a noticeable decline in the number of movies produced in recent years, which requires further investigation to understand the underlying reasons.
+which I think is because of the increase in production in reality tv shows and the platform numbers increase which led to decrease the number of movies and cinema production.
+### Resorces 
+1. https://atlan.com/data-quality-issues/#in-conclusion
+2. https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+3. https://medium.com/analytics-vidhya/different-types-of-outliers-dd6363983744
+4. https://www.ablebits.com/office-addins-blog/excel-left-function/
+5. https://www.youtube.com/watch?v=-MiAmeuzrSQ
+6. https://www.youtube.com/watch?v=OrsuYT_OMtQ
