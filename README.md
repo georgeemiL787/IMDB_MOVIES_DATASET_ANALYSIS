@@ -71,7 +71,8 @@ And earining persentage was calculated by (profit/budget)*100 if the output is n
 
 ## Data visualization
 Using A pivot table as it's a data visualization tool so you need to add the columns having a relation to make analysis <br />
-First pivot table called best duo in this imdb movies list <br />
+### First pivot table 
+called best duo in this imdb movies list helps me to get the highest average rating duo <br />
 Starting with adding (director / actor) column , Count of movie_title to get the number of movies the duo did together and sum for imdb score 
 to calculate average rating for every duo in the list <br />
 by using this formula (Sum of imdb_score/(Count of movie_title*10)) and change the result to precentage formula 
@@ -83,11 +84,25 @@ After that I extracted the most working together duos to make a barchar for the 
 ![image](https://github.com/user-attachments/assets/61138e02-ffd1-4b55-a674-66750a01947c)
 
 And found that statically <br />
-[Martin Scorsese|Robert De Niro](#emphasis) were the best duo <a name="emphasis"/>
+[Martin Scorsese|Robert De Niro](#emphasis) were the highest average rating duo <a name="emphasis"/>
 
 ![image](https://github.com/user-attachments/assets/f65da188-5077-4b37-af09-8102ee0a5229)
 
 And found out that from the top 20 rated movies there are 9 duo worked together
 
 ![image](https://github.com/user-attachments/assets/5e14edd9-3aaf-4f76-9c83-c7f90139d468)
+
+
+### second pivot table
+called best directors to get the highest average rating directors in this imdb list
+starting with adding (director name) column and (sum of imdb scores) to get every director total score and last column (count movie title) so I get the number of movies each director have in the list <br />
+from this we can calculate average rating of every director by divid sum of imdb scores with count movie title multiply 10 (sum of imdb scores/(count movie title*10)) and change the result to precentage formula  <br />
+After that extract the data to external table so it can be visualized 
+
+![image](https://github.com/user-attachments/assets/da5ffa4c-144b-4bec-b910-1e7e43d84590)
+
+And found that statically <br />
+[Christopher Nolan](#emphasis) have the highest average rating <a name="emphasis"/>
+
+![image](https://github.com/user-attachments/assets/f04b0c31-3f0f-47d5-9704-30e281530cd1)
 
