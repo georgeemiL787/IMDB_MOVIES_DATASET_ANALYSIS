@@ -10,7 +10,7 @@ this data project aims to provide insights into the movies industry over the pas
 [Derived column](#emphasis)  
 [Data visualization](#emphasis)  
 [Bussiness analysis](#emphasis)   
-[resorces](#emphasis)
+[Resorces](#emphasis)
 <a name="headers"/>
 <a name="emphasis"/>
 <a name="emphasis"/>
