@@ -126,7 +126,7 @@ starting with adding (actor name) column and (sum of imdb scores) to get every a
 from this we can calculate average rating of every actor by divid sum of imdb scores with count movie title multiply 10 (sum of imdb scores/(count movie title*10)) and change the result to precentage formula  <br />
 After that extract the data to external table so it can be visualized 
 
-![image](https://github.com/user-attachments/assets/678bd364-b45e-4f05-ac6b-d62127692d73) ![image](https://github.com/user-attachments/assets/a9f5555c-614b-442d-803f-f84bd50dbf06)
+![image](https://github.com/user-attachments/assets/678bd364-b45e-4f05-ac6b-d62127692d73) ![image](https://github.com/user-attachments/assets/a9f5555c-614b-442d-803f-f84bd50dbf06) <br />
 And found that statically <br />
 [Tom Hanks](#emphasis) have the highest average rating actor <a name="emphasis"/>
 
