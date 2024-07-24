@@ -70,7 +70,7 @@ And earining persentage was calculated by (profit/budget)*100 if the output is n
 ![image](https://github.com/user-attachments/assets/0da5fc61-46c4-4b33-b253-0db7535de2bc)
 
 ## Data visualization
-Using A pivot table as it's a data visualization tool so you need to add the columns having a relation to make analysis <br />
+Using pivot tables as it's a data visualization tool so you need to add the columns having a relation to make analysis <br />
 ### First pivot table 
 named best duo in this imdb movies list helps me to get the highest average rating duo <br />
 Starting with adding (director / actor) column , Count of movie_title to get the number of movies the duo did together and sum for imdb score 
