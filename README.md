@@ -72,7 +72,7 @@ And earining persentage was calculated by (profit/budget)*100 if the output is n
 ## Data visualization
 Using A pivot table as it's a data visualization tool so you need to add the columns having a relation to make analysis <br />
 ### First pivot table 
-called best duo in this imdb movies list helps me to get the highest average rating duo <br />
+named best duo in this imdb movies list helps me to get the highest average rating duo <br />
 Starting with adding (director / actor) column , Count of movie_title to get the number of movies the duo did together and sum for imdb score 
 to calculate average rating for every duo in the list <br />
 by using this formula (Sum of imdb_score/(Count of movie_title*10)) and change the result to precentage formula 
@@ -94,7 +94,7 @@ And found out that from the top 20 rated movies there are 9 duo worked together
 
 
 ### Second pivot table
-called best directors to get the highest average rating directors in this imdb list
+named best directors to get the highest average rating directors in this imdb list
 starting with adding (director name) column and (sum of imdb scores) to get every director total score and last column (count movie title) so I get the number of movies each director have in the list <br />
 from this we can calculate average rating of every director by divid sum of imdb scores with count movie title multiply 10 (sum of imdb scores/(count movie title*10)) and change the result to precentage formula  <br />
 After that extract the data to external table so it can be visualized 
@@ -102,12 +102,12 @@ After that extract the data to external table so it can be visualized
 ![image](https://github.com/user-attachments/assets/da5ffa4c-144b-4bec-b910-1e7e43d84590)
 
 And found that statically <br />
-[Christopher Nolan](#emphasis) have the highest average rating <a name="emphasis"/>
+[Christopher Nolan](#emphasis) have the highest average rating director <a name="emphasis"/>
 
 ![image](https://github.com/user-attachments/assets/f04b0c31-3f0f-47d5-9704-30e281530cd1)
 
 ### Third pivot table
-Called best genre to get highest average rating genre to make a movie <br />
+named best genre to get highest average rating genre to make a movie <br />
 Adding the derived coulmn (main genre) with 2 value fields columns (Sum of imdb_score,Count of imdb_score2)
 from this pivot table we calculated average rating each genre have (Sum of imdb_score/(Count of imdb_score2*10)) and there distribution on the movie list <br />
 
@@ -121,5 +121,30 @@ and From this bar chart we get to know that the highest average rating are (biog
 therefore after analyze the 2 graphs get to conclusion that [Drama](#emphasis) has the highest average rating genre <a name="emphasis"/>
 
 ### Forth pivot table 
+named best actor to get the highest average rating actor in this imdb list
+starting with adding (actor name) column and (sum of imdb scores) to get every actor total imdb score and last column (count movie title) so I get the number of movies each actor have in the list <br />
+from this we can calculate average rating of every actor by divid sum of imdb scores with count movie title multiply 10 (sum of imdb scores/(count movie title*10)) and change the result to precentage formula  <br />
+After that extract the data to external table so it can be visualized 
 
+![image](https://github.com/user-attachments/assets/678bd364-b45e-4f05-ac6b-d62127692d73) ![image](https://github.com/user-attachments/assets/a9f5555c-614b-442d-803f-f84bd50dbf06)
+And found that statically <br />
+[Tom Hanks](#emphasis) have the highest average rating actor <a name="emphasis"/>
 
+### Fifth pivot table
+named best country we get the highest rating country and also get the highest earning percentage in every country getting the average rating was like the other categories  <br />
+to get the earning percentage we used the derived column we calculated (earning percentage) so we added the country name and sum of earning pecentage of every movie depend on the country name 
+and then get every counry number of movies in the list and calculated the earning percentage (Sum of earining persentage of the movies/ Count of movie_title*100 ) and change the result to precentage formula <br />
+I got top 5 countries having number of movies in this list to know the best country to make a movie depend on rating and earning percentage 
+
+ ![image](https://github.com/user-attachments/assets/104240c6-7bc5-4e9d-a269-1806e63a10ae) ![image](https://github.com/user-attachments/assets/fb79795a-a855-4aab-b4fe-75642b133061)
+
+From this we get to know that rating doesn't depend on country but the earning percenage depends so that [USA](#emphasis) have the highest earning percentage in movie industry  <a name="emphasis"/>
+
+### sixth and the last pivot table 
+named movies over the years contains 2 columns the years and count title movies to count the number of movies in every year 
+
+![image](https://github.com/user-attachments/assets/b780b841-60b4-40b1-b013-caec1e8f5481)
+
+from this visualization we get to know that the starting of the past century movie industry wasn't that big and it start to grow making a trend it's peak was at the first decad of this century <br /> 
+at the end of the graph we see the number of movies start to decrease which we will discuss at the bussiness analysis.
+## Bussiness analysis
