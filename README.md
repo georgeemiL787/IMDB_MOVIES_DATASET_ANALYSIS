@@ -77,16 +77,16 @@ Starting with adding (director / actor) column , Count of movie_title to get the
 to calculate average rating for every duo in the list <br />
 by using this formula (Sum of imdb_score/(Count of movie_title*10)) and change the result to precentage formula 
 
-![image](https://github.com/user-attachments/assets/53f746f7-d59c-4a72-9cf0-741e0c662fe8)
+![image](https://github.com/user-attachments/assets/2eb54291-ed5c-4ff0-9ec3-e3c354ab782b)
 
 After that I extracted the most working together duos to make a barchar for the best duo
 
-![image](https://github.com/user-attachments/assets/61138e02-ffd1-4b55-a674-66750a01947c)
+![image](https://github.com/user-attachments/assets/97f982a9-c761-453a-91e5-8f55cefc7a38)
 
 And found that statically <br />
 [Martin Scorsese|Robert De Niro](#emphasis) were the highest average rating duo <a name="emphasis"/>
 
-![image](https://github.com/user-attachments/assets/f65da188-5077-4b37-af09-8102ee0a5229)
+![image](https://github.com/user-attachments/assets/9acba0b8-25b9-42bb-b35f-7aa9986fb765)
 
 And found out that from the top 20 rated movies there are 9 duo worked together
 
@@ -99,12 +99,12 @@ starting with adding (director name) column and (sum of imdb scores) to get ever
 from this we can calculate average rating of every director by divid sum of imdb scores with count movie title multiply 10 (sum of imdb scores/(count movie title*10)) and change the result to precentage formula  <br />
 After that extract the data to external table so it can be visualized 
 
-![image](https://github.com/user-attachments/assets/da5ffa4c-144b-4bec-b910-1e7e43d84590)
+![image](https://github.com/user-attachments/assets/72674787-dc0a-4f1a-a7c5-5957e3dfb3e4)
 
 And found that statically <br />
 [Christopher Nolan](#emphasis) have the highest average rating director <a name="emphasis"/>
 
-![image](https://github.com/user-attachments/assets/f04b0c31-3f0f-47d5-9704-30e281530cd1)
+![image](https://github.com/user-attachments/assets/540aed54-1839-4912-ae37-05ae06f9d0f7)
 
 ### Third pivot table
 named best genre to get highest average rating genre to make a movie <br />
@@ -115,7 +115,7 @@ from this pivot table we calculated average rating each genre have (Sum of imdb_
 
 From this 2d pie chart we get to know that the most used genres are (action,comedy,drama) 
 
-![image](https://github.com/user-attachments/assets/4b02934b-5107-4a4b-b5cb-33b949e96c1c)
+![image](https://github.com/user-attachments/assets/e1ce3a99-bac4-48ad-aceb-dbf0a334a2af)
 
 and From this bar chart we get to know that the highest average rating are (biography , crime , drama)  <br />
 therefore after analyze the 2 graphs get to conclusion that [Drama](#emphasis) has the highest average rating genre <a name="emphasis"/>
@@ -135,8 +135,7 @@ named best country we get the highest rating country and also get the highest ea
 to get the earning percentage we used the derived column we calculated (earning percentage) so we added the country name and sum of earning pecentage of every movie depend on the country name 
 and then get every counry number of movies in the list and calculated the earning percentage (Sum of earining persentage of the movies/ Count of movie_title*100 ) and change the result to precentage formula <br />
 I got top 5 countries having number of movies in this list to know the best country to make a movie depend on rating and earning percentage 
-
- ![image](https://github.com/user-attachments/assets/104240c6-7bc5-4e9d-a269-1806e63a10ae) ![image](https://github.com/user-attachments/assets/fb79795a-a855-4aab-b4fe-75642b133061)
+![image](https://github.com/user-attachments/assets/4184e99b-542f-4fae-98dc-354d8674dbe5) ![image](https://github.com/user-attachments/assets/51622ea2-8d33-42c6-ac3e-389535e521ba)
 
 From this we get to know that rating doesn't depend on country but the earning percenage depends so that [USA](#emphasis) have the highest earning percentage in movie industry  <a name="emphasis"/>
 
